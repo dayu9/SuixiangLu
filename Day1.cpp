@@ -61,22 +61,3 @@ int main()
 	return 0;
 }
 
-/*
-class Solution {
-public:
-    int search(vector<int>& nums, int target) {
-        int max_index=nums.size()-1,min_index=0;
-	    
-	
-		while(max_index>=min_index)
-		{
-			int temp =min_index+ (max_index-min_index)/2;
-			if(nums[temp]==target) return temp;
-			else if(nums[temp]>target) max_index = temp-1;
-			else min_index = temp+1;
-
-		}
-		return -1;
-    }
-};
-*/
